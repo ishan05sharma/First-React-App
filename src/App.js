@@ -39,7 +39,7 @@ export default function App() {
         {placesweknow.map(function (place) {
           return (
             <span>
-              <li className="non-bullet">{placelist}</li>
+              <li className="non-bullet card">{placelist}</li>
             </span>
           );
         })}
